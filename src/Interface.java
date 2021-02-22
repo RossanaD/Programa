@@ -171,11 +171,11 @@ public class Interface {
 		SobrenomePessoa.setColumns(10);
 		
 		comboBox = new JComboBox<>();
-		comboBox.setBounds(43, 64, 82, 22);
+		comboBox.setBounds(43, 64, 124, 22);
 		panel_2.add(comboBox);
 		
 		comboBox_1 = new JComboBox<>();
-		comboBox_1.setBounds(109, 93, 82, 22);
+		comboBox_1.setBounds(109, 93, 132, 22);
 		panel_2.add(comboBox_1);
 		
 		JLabel lblNewLabel_7 = new JLabel("Sala:");
@@ -266,7 +266,7 @@ public class Interface {
 		panel_1.add(lblNewLabel_11_1);
 		
 		comboBox_2 = new JComboBox<Sala>();
-		comboBox_2.setBounds(43, 85, 82, 22);
+		comboBox_2.setBounds(43, 85, 108, 22);
 		panel_1.add(comboBox_2);
 		
 		JLabel lblNewLabel_7_1 = new JLabel("Sala:");
@@ -274,11 +274,11 @@ public class Interface {
 		panel_1.add(lblNewLabel_7_1);
 		
 		comboBox_3 = new JComboBox<EspacoCafe>();
-		comboBox_3.setBounds(321, 85, 82, 22);
+		comboBox_3.setBounds(307, 85, 96, 22);
 		panel_1.add(comboBox_3);
 		
 		JLabel lblNewLabel_8_1 = new JLabel("Espa\u00E7o de Caf\u00E9:");
-		lblNewLabel_8_1.setBounds(222, 89, 101, 14);
+		lblNewLabel_8_1.setBounds(208, 89, 101, 14);
 		panel_1.add(lblNewLabel_8_1);
 		
 		JButton btnNewButton_4 = new JButton("Pesquisar Sala");
